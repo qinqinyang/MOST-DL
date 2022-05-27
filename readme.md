@@ -29,12 +29,6 @@ arXiv: https://arxiv.org/abs/2107.14521
 **MOST-DL:**
 ![main_architecture](./figs/most.png)
 
-**Self-supervised optimization:**
-
-$\hat{\theta}=\mathop{\arg\min}\limits_{\theta}\mathbb{E}_{\xi\sim \Xi}\mathbb{E}_{a\sim P_{\xi}(a),\sigma\sim P_{\xi}(\sigma)}L[f(\bm{A}_{input}(a_j,\sigma_k^{in});\theta_\Omega)-\bm{A}_{label}(a_j,\sigma_k^{out})]$
-
->$a$: parametric templates, $\sigma$: non-ideal factors, $\bm{A}$: forward physical model, $f$: neural network, $\theta$: model parameters, $L$: loss function, $\xi$: random parameters, $P$: data distribution.
-
 ## Dependencies
 
 The deep learning codes have been tested in [Anaconda 3.6](https://repo.anaconda.com/archive/) with [Pytorch 1.6.0-cuda](https://pytorch.org/get-started/previous-versions/). The training data is in the mat format.
