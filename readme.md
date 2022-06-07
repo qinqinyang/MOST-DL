@@ -16,6 +16,8 @@ MOdel-based SyntheTic Data-driven Learning (MOST-DL): Application in Single-shot
 
 arXiv: https://arxiv.org/abs/2107.14521
 
+IEEE Xplore: https://doi.org/10.1109/TMI.2022.3179981
+
 **Table of Conents**
 
 * [Dependencies](#dependencies)
